@@ -1,0 +1,3 @@
+{"template": "[X0]\nquestion: [X1]. true, false, or neither?\nanswer: [Y]", "verbalizer": ["true", "false", "neither"]}
+{"template": "[X1]?\n[X0]\nTherefore, the answer is [Y].", "verbalizer": ["yes", "no", "maybe"]}
+{"template": "\"[X1]\"?\n\"[X0]\", so the answer is [Y].", "verbalizer": ["yes", "no", "maybe"]}

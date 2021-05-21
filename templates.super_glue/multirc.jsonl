@@ -1,0 +1,7 @@
+{"template": "[X0]\n\n[X1]\n- [Y] [X2]", "verbalizer": ["False", "True"], "instruction": "READING COMPREHENSION ANSWER KEY\n"}
+{"template": "[X0]\nQuestion: [X1] Is it [X2]? [Y].", "verbalizer": ["No", "Yes"]}
+{"template": "[X0]\nQuestion: [X1] Is it [X2]? [Y].", "verbalizer": ["False", "True"]}
+{"template": "[X0]\nQuestion: [X1] Is the correct answer \"[X2]\"? [Y].", "verbalizer": ["No", "Yes"]}
+{"template": "[X0]\nQuestion: [X1] Is the correct answer \"[X2]\"? [Y].", "verbalizer": ["False", "True"]}
+{"template": "[X0]\nBased on the previous passage, [X1] Is \"[X2]\" a correct answer? [Y].", "verbalizer": ["No", "Yes"]}
+{"template": "[X0]\nBased on the previous passage, [X1] Is \"[X2]\" a correct answer? [Y].", "verbalizer": ["False", "True"]}

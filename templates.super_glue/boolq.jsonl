@@ -1,0 +1,7 @@
+{"template": "[X0]\nquestion: [X1]?\nanswer: [Y]", "verbalizer": ["no", "yes"]}
+{"template": "[X0] Question: [X1]? Answer: [Y].", "verbalizer": ["No", "Yes"]}
+{"template": "[X0] Question: [X1]? Answer: [Y].", "verbalizer": ["False", "True"]}
+{"template": "[X0] Based on the previous passage, [X1]? [Y].", "verbalizer": ["No", "Yes"]}
+{"template": "[X0] Based on the previous passage, [X1]? [Y].", "verbalizer": ["False", "True"]}
+{"template": "Based on the following passage, [X1]?\n[X0]\nAnswer: [Y]", "verbalizer": ["No", "Yes"]}
+{"template": "Based on the following passage, [X1]?\n[X0]\nAnswer: [Y]", "verbalizer": ["False", "True"]}

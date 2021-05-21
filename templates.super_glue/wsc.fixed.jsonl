@@ -1,0 +1,4 @@
+{"template": "Passage: [X0]\nQuestion: In the passage above, what does the pronoun \"*[X1]*\" refer to?\nAnswer: [Y]", "instruction": "Final Exam with Answer Key\nInstructions: Please carefully read the following passages. For each passage, you must identify which noun the pronoun marked in *bold* refers to.\n=====\n"}
+{"template": "[X0] The pronoun '*[X1]*' refers to [Y]."}
+{"template": "[X0] In the previous sentence, the pronoun '*[X1]*' refers to [Y]."}
+{"template": "[X0] In the passage above, what does the pronoun '*[X1]*' refer to? Answer: [Y]"}

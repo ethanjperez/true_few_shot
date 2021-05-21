@@ -1,0 +1,4 @@
+{"template": "[X0]\n[X1]\nquestion: Is the word '[X2]' used in the same way in the two sentences above?\nanswer: [Y]", "verbalizer": ["no", "yes"]}
+{"template": "\"[X0]\" / \"[X1]\". Similar sense of \"[X2]\"? [Y].", "verbalizer": ["No", "Yes"]}
+{"template": "[X0] [X1] Does \"[X2]\" have the same meaning in both sentences? [Y]", "verbalizer": ["No", "Yes"]}
+{"template": "[X2].\n- \"[X0]\" (Sense 1a)\n- \"[X1]\" (Sense [Y])", "verbalizer": ["2a", "1b"]}
