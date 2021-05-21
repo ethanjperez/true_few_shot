@@ -1,4 +1,4 @@
-# True Few-Shot Learning in Language Models
+# True Few-Shot Learning with Language Models
 
 This codebase supports using language models (LMs) for true few-shot learning: learning to perform a task using a limited number of examples from a single task distribution.
 We choose prompts and hyperparameters for few-shot learning methods using no additional held-out data via methods like cross-validation and minimum description length.
