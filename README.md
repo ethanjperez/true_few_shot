@@ -2,7 +2,7 @@
 
 This codebase supports using language models (LMs) for true few-shot learning: learning to perform a task using a limited number of examples from a single task distribution.
 We choose prompts and hyperparameters for few-shot learning methods using no additional held-out data via methods like cross-validation and minimum description length.
-Our code supports two forms of few-shot learning:
+The code reproduces the results in our [paper](https://arxiv.org/abs/2105.11447) and supports two forms of few-shot learning:
 1. **"In-context" learning** using LMs similar to [GPT-3](https://arxiv.org/abs/2005.14165). Here, we format a few training examples as input to the LM using a natural language "prompt," and we use the LM to predict the next token. We include the code for in-context learning primarily in the top-level directory (largely in `eval_lm.py`). 
 2. **Finetuning** via [ADAPET](https://arxiv.org/abs/2103.11955), which learns from supervised examples using a modified classification loss alongside an auxiliary masked LM objective. We include the code for finetuning ADAPET in subdirectories (e.g., `src/` for training/evaluation code).
 
@@ -296,3 +296,15 @@ python adapet.py --tns $TNS --tsss $TSSS --sms $SMS
 ```
 
 Feel free to open an issue if you have any questions, and have fun true few-shot learning!
+
+## Bibtex Citation
+
+```bash
+@article{perez2021true,
+  author = {Ethan Perez and Douwe Kiela and Kyunghyun Cho},
+  title = {True Few-Shot Learning with Language Models},
+  journal={arXiv},
+  year = {2021},
+  url = {https://arxiv.org/abs/2105.11447}
+}
+```
