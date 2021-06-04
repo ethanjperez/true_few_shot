@@ -20,9 +20,22 @@ Continue below to reproduce our prompt selection experiments (with GPT models on
 
 ## True Few-Shot Prompt Selection for GPT
 
-Download data for LAMA experiments (LAMA-UHN data, LAMA and LPAQA prompts, and LAMA vocab):
+First, create a virtual Python 3.7+ environment. We installed and activated a Python 3.7 with Anaconda 3 (downloadable from [docs.anaconda.com](https://docs.anaconda.com/anaconda/install/)) like so:
 ```bash
-cd data
+conda create -y -n true_few_shot python=3.7
+conda activate true_few_shot
+# To deactivate the environment, use conda deactivate
+```
+
+Next, install the dependencies for this repo:
+```
+cd $BASE
+pip install -r requirements_prompt.txt
+```
+
+Then, download data for LAMA experiments (LAMA-UHN data, LAMA and LPAQA prompts, and LAMA vocab):
+```bash
+cd $BASE/data
 
 # Download LAMA-UHN
 wget https://www.cis.uni-muenchen.de/~poerner/blobs/e-bert/LAMA_UHN.zip
@@ -45,19 +58,6 @@ rm data.zip
 gdown --id 15ypcAYvQGYRtIQ-GH7qSLNDlJZ2Sqs0H
 unzip lpaqa.zip
 rm lpaqa.zip
-```
-
-Then, create a virtual Python 3.7+ environment. We installed and activated a Python 3.7 with Anaconda 3 (downloadable from [docs.anaconda.com](https://docs.anaconda.com/anaconda/install/)) like so:
-```bash
-conda create -y -n true_few_shot python=3.7
-conda activate true_few_shot
-# To deactivate the environment, use conda deactivate
-```
-
-Next, install the dependencies for this repo:
-```
-cd $BASE
-pip install -r requirements_prompt.txt
 ```
 
 To experiment with GPT2/DistilGPT2 models, you'll then need to install PyTorch to use transformers models (PyTorch download instructions at [pytorch.org](https://pytorch.org/)). (PyTorch installation is not required for GPT3 models.) We used PyTorch 1.7.1 (with CUDA 11.0.194 for GPU inference), installed with the below command:
