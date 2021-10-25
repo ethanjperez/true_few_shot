@@ -303,7 +303,7 @@ Feel free to open an issue if you have any questions, and have fun true few-shot
 @article{perez2021true,
   author = {Ethan Perez and Douwe Kiela and Kyunghyun Cho},
   title = {True Few-Shot Learning with Language Models},
-  journal={arXiv},
+  journal={NeurIPS},
   year = {2021},
   url = {https://arxiv.org/abs/2105.11447}
 }
